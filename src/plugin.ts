@@ -37,7 +37,7 @@ const defaultOptions: OptionsInterface = {
     // todo
 };
 
-export function <projectName>(options: OptionsInterface, app: Application): Promise<any> {
+export function <ClassName>(options: OptionsInterface, app: Application): Promise<any> {
     // todo
 
     return Promise.resolve();

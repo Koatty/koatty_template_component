@@ -3,7 +3,7 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:06
- * @LastEditTime: 2020-12-24 14:53:17
+ * @LastEditTime: 2020-12-24 15:01:40
  */
 import * as Koa from 'koa';
 import * as helper from "koatty_lib";
@@ -46,7 +46,7 @@ const defaultOptions: OptionsInterface = {
  * @param {Application} app
  * @returns {*}  {Koa.Middleware}
  */
-export function <projectName>(options: OptionsInterface, app: Application): Koa.Middleware {
+export function <ClassName>(options: OptionsInterface, app: Application): Koa.Middleware {
     const opt = { ...defaultOptions, ...options };
     // todo
 
