@@ -3,7 +3,7 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:14
- * @LastEditTime: 2020-12-24 10:38:38
+ * @LastEditTime: 2020-12-24 14:53:06
  */
 import * as helper from "koatty_lib";
 import { DefaultLogger as logger } from "koatty_logger";
@@ -37,7 +37,7 @@ const defaultOptions: OptionsInterface = {
     // todo
 };
 
-export default function (options: OptionsInterface, app: Application): Promise<any> {
+export function <projectName>(options: OptionsInterface, app: Application): Promise<any> {
     // todo
 
     return Promise.resolve();
