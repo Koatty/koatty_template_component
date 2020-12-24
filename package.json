@@ -1,7 +1,7 @@
 {
   "name": "<projectName>",
   "version": "1.0.0",
-  "description": "",
+  "description": "Koatty Extension Project",
   "scripts": {
     "build": "del-cli --force dist && tsc",
     "prepublishOnly": "npm test && npm run build",
