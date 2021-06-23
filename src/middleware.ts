@@ -3,11 +3,11 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:06
- * @LastEditTime: 2020-12-24 15:01:40
+ * @LastEditTime: 2021-06-23 15:48:22
  */
 import * as Koa from 'koa';
+import { Logger } from "koatty";
 import * as helper from "koatty_lib";
-import { DefaultLogger as logger } from "koatty_logger";
 
 
 /**
