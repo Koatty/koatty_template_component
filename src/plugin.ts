@@ -3,11 +3,9 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:14
- * @LastEditTime: 2021-06-23 15:49:27
+ * @LastEditTime: 2021-06-28 11:36:25
  */
-import { Koatty, Logger } from "koatty";
-import * as helper from "koatty_lib";
-
+import { Koatty, Logger, Helper } from "koatty";
 
 /**
  * Koatty Application
