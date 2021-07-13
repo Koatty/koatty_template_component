@@ -3,23 +3,10 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:06
- * @LastEditTime: 2021-06-28 11:37:07
+ * @LastEditTime: 2021-07-13 10:33:52
  */
-import * as Koa from 'koa';
-import { Koatty, Logger, Helper } from "koatty";
+import { Koatty, Logger, Helper, KoattyContext, KoattyNext } from "koatty";
 
-
-/**
- * Koatty Application
- *
- * @export
- * @interface Application
- */
-export interface Application {
-    config(propKey: string, type: string): any;
-    on(event: string, callback: () => void): any;
-    once(event: string, callback: () => void): any;
-}
 
 /**
  *
@@ -45,12 +32,12 @@ const defaultOptions: OptionsInterface = {
  * @param {Application} app
  * @returns {*}  {Koa.Middleware}
  */
-export function <ClassName>(options: OptionsInterface, app: Application): Koa.Middleware {
+export function <ClassName>(options: OptionsInterface, app: Koatty): Koa.Middleware {
     const opt = { ...defaultOptions, ...options };
     // todo
 
 
-    return async (ctx: Koatty.Context, next: Koa.Next) => {
+    return async (ctx: KoattyContext, next: KoattyNext) => {
         // todo
         return next();
     }
