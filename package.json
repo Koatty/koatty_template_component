@@ -27,6 +27,7 @@
     "@types/cls-hooked": "^4.x.x",
     "@types/jest": "^26.0.23",
     "@types/koa": "^2.x.x",
+    "@types/koa__router": "^8.x.x",
     "@types/node": "^12.x.x",
     "@typescript-eslint/eslint-plugin": "^4.x.x",
     "@typescript-eslint/parser": "^4.x.x",
@@ -45,8 +46,9 @@
     "typescript": "^4.x.x"
   },
   "dependencies": {
-    "koatty": "^3.3.6",
-    "koatty_lib": "^1.2.6"
+    "koa": "^2.x.x",
+    "koatty": "^3.x.x",
+    "koatty_lib": "^1.x.x"
   },
   "husky": {
     "hooks": {

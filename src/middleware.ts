@@ -3,9 +3,10 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:06
- * @LastEditTime: 2021-07-13 10:33:52
+ * @LastEditTime: 2021-07-13 16:10:19
  */
-import { Koatty, Logger, Helper, KoattyContext, KoattyNext } from "koatty";
+import Koa from "koa";
+import { Koatty, Logger, Helper, KoattyContext } from "koatty";
 
 
 /**
@@ -37,7 +38,7 @@ export function <ClassName>(options: OptionsInterface, app: Koatty): Koa.Middlew
     // todo
 
 
-    return async (ctx: KoattyContext, next: KoattyNext) => {
+    return async (ctx: KoattyContext, next: Koa.Next) => {
         // todo
         return next();
     }
