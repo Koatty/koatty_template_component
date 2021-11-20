@@ -3,19 +3,9 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:14
- * @LastEditTime: 2021-11-20 01:42:46
+ * @LastEditTime: 2021-11-21 00:31:10
  */
 import { Koatty, Logger, Helper } from "koatty";
-
-/**
- * Koatty Application
- *
- * @export
- * @interface Application
- */
-export interface Application extends Koatty {
-
-}
 
 /**
  *
@@ -35,7 +25,7 @@ const defaultOptions: OptionsInterface = {
 
 };
 
-export function FUNCTION_NAMEPlugin(options: OptionsInterface, app: Application): Promise<any> {
+export function _CLASS_NAME(options: OptionsInterface, app: Koatty): Promise<any> {
     // todo
     const opt = { ...defaultOptions, ...options };
 
