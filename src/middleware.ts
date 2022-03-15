@@ -3,7 +3,7 @@
  * @Usage:
  * @Author: xxx
  * @Date: 2020-12-24 10:32:06
- * @LastEditTime: 2021-11-21 00:32:06
+ * @LastEditTime: 2022-03-15 10:40:49
  */
 import Koa from "koa";
 import { Koatty, Logger, Helper, KoattyContext } from "koatty";
@@ -15,14 +15,14 @@ import { Koatty, Logger, Helper, KoattyContext } from "koatty";
  * @interface OptionsInterface
  */
 interface OptionsInterface {
-    // todo
+  // todo
 }
 
 /**
  * default options
  */
 const defaultOptions: OptionsInterface = {
-    // todo
+  // todo
 };
 
 /**
@@ -34,11 +34,11 @@ const defaultOptions: OptionsInterface = {
  * @returns {*}  {Koa.Middleware}
  */
 export function _CLASS_NAME(options: OptionsInterface, app: Koatty): Koa.Middleware {
-    const opt = { ...defaultOptions, ...options };
-    // todo
+  const opt = { ...defaultOptions, ...options };
+  // todo
 
-    return async (ctx: KoattyContext, next: Koa.Next) => {
-        // todo
-        return next();
-    }
+  return async (ctx: KoattyContext, next: Koa.Next) => {
+    // todo
+    return next();
+  }
 }
