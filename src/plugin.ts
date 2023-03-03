@@ -12,7 +12,7 @@ import { Koatty, Logger, Helper } from "koatty";
  *
  * @interface OptionsInterface
  */
-interface OptionsInterface {
+export interface OptionsInterface {
   // todo
 
 }
